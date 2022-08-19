@@ -1,98 +1,23 @@
-.container{
-    padding: 100%;
-}
-
-.title{
-    font-size: 50px;
-}
-.desc-content{
-    width: 30em;
-}
-.form{
-    display: block;
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-.todo-inputs{
-    outline: none;
-    width: 50%;
-    height: 30px;
-    border-color: darkgray;
-    box-shadow: none;
-    padding-left: 10px;
-}
-.todo-inputs:focus{
-    width: 70%;
-    transition: 0.1ms;
-    border-color: darkgray!important;
-    box-shadow: none;
-    padding-left: 10%;
+h1{
+    color: black;
+    text-align: center;
 
 }
-.body{
-    background-color: aliceblue;
-    color: #2a2929;
+.profile{
+    width: 200px;
+    height: 180px;
+    border-radius: 40px;
 }
-body{
-	margin: 0px;
-	padding: 0px;
-	background: #f1f1f1;
-	font-family:sans-serif;
-	box-sizing:border-box;
+.twitter{
+    
+    color: aqua;
 }
-
-.upper-container{
-	height: 320px;
-	background:#f0f2f5;
+.gmail{
+    color: black;
 }
-.image-container{
-	background: white;
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
-	padding: 5px;
-    margin-left: 450px;
-	transform: translate(100px,100px);
-    align-items: center;
+.ig{
+    color: darkmagenta;
 }
-.image-container img{
-	width: 250px;
-	height: 250px;
-	border-radius: 50%;
-    margin-left: 0px;
+.facebook{
+    color: aqua;
 }
-.lower-container h3{
-	box-sizing: border-box;
-	line-height: .6;
-	font-weight:500;
-	font-size: xx-large;
-}
-.fa {
-	padding: 20px;
-	font-size: 30px;
-	width: 25px;
-	text-align: center;
-	text-decoration: none;
-	margin-top: 10px;
-}
-.fa:hover {
-	opacity: 0.7;
-  }
-  .fa-facebook {
-	background: #3B5998;
-	color: white;
-	border-radius: 50%;
-  }
-  
-  .fa-twitter {
-	background: #55ACEE;
-	color: white;
-	border-radius: 50%;
-  }
-
-  .fa-github {
-	background: black;
-	color: white;
-	border-radius: 50%;
-  }
